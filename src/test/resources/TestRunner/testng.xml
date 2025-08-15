@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Store Test Regression PW Suite" parallel="tests"
+	thread-count="2" verbose="4">
+	
+	<listeners>
+		<listener class-name="listeners.ExtentReportListener"/>
+	</listeners>
+	
+	<test name="Login Page Test">
+		<classes>
+			<class name="mytests.LoginPageTest" />
+		</classes>
+	</test>
+	<test name="Home Page Test">
+		<classes>
+			<class name="mytests.HomePageTest" />
+		</classes>
+	</test>
+</suite>

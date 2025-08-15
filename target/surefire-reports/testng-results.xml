@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-15T23:00:01 IST" name="Store Test Regression PW Suite" finished-at="2025-08-15T23:00:10 IST" duration-ms="9003">
+    <groups>
+    </groups>
+    <test started-at="2025-08-15T23:00:01 IST" name="Login Page Test" finished-at="2025-08-15T23:00:08 IST" duration-ms="6445">
+      <class name="mytests.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mytests.LoginPageTest@402c4085]" started-at="2025-08-15T23:00:01 IST" name="setUp" finished-at="2025-08-15T23:00:07 IST" duration-ms="5440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginPageTitle()[pri:0, instance:mytests.LoginPageTest@402c4085]" started-at="2025-08-15T23:00:07 IST" name="verifyLoginPageTitle" finished-at="2025-08-15T23:00:07 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method signature="verifyLoginPageUrl()[pri:0, instance:mytests.LoginPageTest@402c4085]" started-at="2025-08-15T23:00:07 IST" name="verifyLoginPageUrl" finished-at="2025-08-15T23:00:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageUrl -->
+        <test-method signature="verifyLoginSuccessful()[pri:0, instance:mytests.LoginPageTest@402c4085]" started-at="2025-08-15T23:00:07 IST" name="verifyLoginSuccessful" finished-at="2025-08-15T23:00:07 IST" duration-ms="584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginSuccessful -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mytests.LoginPageTest@402c4085]" started-at="2025-08-15T23:00:07 IST" name="tearDown" finished-at="2025-08-15T23:00:08 IST" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mytests.LoginPageTest -->
+    </test> <!-- Login Page Test -->
+    <test started-at="2025-08-15T23:00:01 IST" name="Home Page Test" finished-at="2025-08-15T23:00:10 IST" duration-ms="9003">
+      <class name="mytests.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mytests.HomePageTest@71075444]" started-at="2025-08-15T23:00:01 IST" name="setUp" finished-at="2025-08-15T23:00:07 IST" duration-ms="5516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkLoginSuccessful()[pri:1, instance:mytests.HomePageTest@71075444]" started-at="2025-08-15T23:00:07 IST" name="checkLoginSuccessful" finished-at="2025-08-15T23:00:08 IST" duration-ms="760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLoginSuccessful -->
+        <test-method signature="verifyElementsvisible()[pri:2, instance:mytests.HomePageTest@71075444]" started-at="2025-08-15T23:00:08 IST" name="verifyElementsvisible" finished-at="2025-08-15T23:00:10 IST" duration-ms="2030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementsvisible -->
+        <test-method signature="verifyCartLinkClicked()[pri:3, instance:mytests.HomePageTest@71075444]" started-at="2025-08-15T23:00:10 IST" name="verifyCartLinkClicked" finished-at="2025-08-15T23:00:10 IST" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartLinkClicked -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mytests.HomePageTest@71075444]" started-at="2025-08-15T23:00:10 IST" name="tearDown" finished-at="2025-08-15T23:00:10 IST" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mytests.HomePageTest -->
+    </test> <!-- Home Page Test -->
+  </suite> <!-- Store Test Regression PW Suite -->
+</testng-results>

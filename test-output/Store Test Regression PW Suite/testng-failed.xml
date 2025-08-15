@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Store Test Regression PW Suite]" verbose="4">
+  <listeners>
+    <listener class-name="listeners.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="Home Page Test(failed)" verbose="4">
+    <classes>
+      <class name="mytests.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="checkLoginSuccessful"/>
+          <include name="verifyElementsvisible"/>
+          <include name="verifyCartLinkClicked"/>
+        </methods>
+      </class> <!-- mytests.HomePageTest -->
+    </classes>
+  </test> <!-- Home Page Test(failed) -->
+  <test thread-count="2" parallel="tests" name="Login Page Test(failed)" verbose="4">
+    <classes>
+      <class name="mytests.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyLoginPageUrl"/>
+          <include name="tearDown"/>
+          <include name="verifyLoginSuccessful"/>
+          <include name="verifyLoginPageTitle"/>
+        </methods>
+      </class> <!-- mytests.LoginPageTest -->
+    </classes>
+  </test> <!-- Login Page Test(failed) -->
+</suite> <!-- Failed suite [Store Test Regression PW Suite] -->
